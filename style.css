@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.container{
+width: 80%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   }
+
+.navbar{
+    background-color: black;
+}
+.logo{
+    margin-top: 5px;
+
+}
+.logo img{
+    width: 50%;
+    
+
+}
+
+.navbar .list{
+    margin-top: 5px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+
+
+
+.portfolio{
+    text-align: center;
+    background: cornsilk;
+    
+}
+.portfolio-items{
+    width: 400px;
+    padding-right: 30px;
+    background-color: green;
+
+}
+.portfolio img{
+    width: 100%;
+    display: block;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
